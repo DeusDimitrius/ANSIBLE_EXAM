@@ -20,4 +20,5 @@ pipeline {
        httpRequest responseHandle: 'NONE', timeout: 2500, url: 'http://IP2:5000', validResponseCodes: '200', consoleLogResponseBody: true
       }
     }
+   }
 }
