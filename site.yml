@@ -7,7 +7,8 @@
 - src: https://github.com/DeusDimitrius/ANSIBLE_NGINX_ROLE.git
   name: nginx-role
 
-- hosts: localhost
+# with tag
+- hosts: local
   remote_user: root
   roles:
   - ANSIBLE_DOCKER_ROLE
