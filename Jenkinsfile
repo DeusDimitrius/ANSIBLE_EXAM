@@ -7,7 +7,7 @@ pipeline {
      steps { 
             
              sh "ansible-galaxy install --force -r requirements.yml --roles-path=roles"
-             sh "ansible-playbook site.yml -i hosts"
+             sh "ansible-playbook -i site.yml hosts"
      }
     }
 

@@ -1,6 +1,9 @@
 - src: https://github.com/DeusDimitrius/ANSIBLE_DOCKER_ROLE.git
+  path: /ansible/roles/
   name: docker-role
 - src: https://github.com/DeusDimitrius/ANSIBLE_WEB_APP_ROLE.git
+  path: /ansible/roles/
   name: flask-role
 - src: https://github.com/DeusDimitrius/ANSIBLE_NGINX_ROLE.git
+  path: /ansible/roles/
   name: nginx-role
