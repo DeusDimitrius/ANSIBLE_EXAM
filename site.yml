@@ -11,6 +11,6 @@
 - hosts: local
   remote_user: root
   roles:
-  - ANSIBLE_DOCKER_ROLE
+  - docker -role
   - flask-role
   - nginx-role
