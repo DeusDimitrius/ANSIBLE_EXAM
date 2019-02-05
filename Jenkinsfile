@@ -5,7 +5,7 @@ pipeline {
 
     stage ('Run') {
      steps {
-             sh "ansible-galaxy install -r requirements.txt"
+             sh "ansible-galaxy install --force -r requirements.txt --roles-path=roles-remote"
              sh "ansible-playbook site.yml -i hosts"
      }
     }
