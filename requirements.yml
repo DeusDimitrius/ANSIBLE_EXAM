@@ -1,5 +1,3 @@
----
-
 - src: https://github.com/DeusDimitrius/ANSIBLE_DOCKER_ROLE.git
   path: /home/jenkins/workspace/deploy
   name: docker-role
