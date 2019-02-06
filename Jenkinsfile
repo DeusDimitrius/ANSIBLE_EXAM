@@ -3,14 +3,17 @@ pipeline {
 
    stages {
 
-    stage ('Run') {
+    stage ('Install') {
      steps { 
-             sh """
-               ansible-galaxy install -f -r requirements.yml --roles-path=roles
-               ansible-playbook -i site.yml hosts
-             """
+             sh "ansible-galaxy install -f -r requirements.yml --roles-path=roles"
      }
     }
+
+    stage ('Run') {
+     steps {
+             sh "ansible-playbook -i site.yml hosts"
+     }
+    }    
 
     stage ('Health check') {
      steps {
