@@ -9,10 +9,10 @@
 
 # with tag
 - hosts: slave
-  become:  
-    true
-   become_method:
-    sudo
+#  become:  
+#    true
+#   become_method:
+#    sudo
   pre_tasks:
     - shell: echo "will apply roles"  
   roles:
