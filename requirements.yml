@@ -1,9 +1,11 @@
+---
+
 - src: https://github.com/DeusDimitrius/ANSIBLE_DOCKER_ROLE.git
-  # path: roles/
+  path: /home/jenkins/workspace/deploy
   name: docker-role
 - src: https://github.com/DeusDimitrius/ANSIBLE_WEB_APP_ROLE.git
-  # path: roles/
+  path: /home/jenkins/workspace/deploy
   name: flask-role
 - src: https://github.com/DeusDimitrius/ANSIBLE_NGINX_ROLE.git
-  # path: roles/
+  path: /home/jenkins/workspace/deploy
   name: nginx-role
