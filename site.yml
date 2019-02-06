@@ -9,11 +9,11 @@
 
 # with tag
 - hosts: slave
-  become:  
-    true
-   become_method:
-    sudo  
-  roles:
+#  become:  
+#    true
+#   become_method:
+#    sudo  
+#  roles:
    - docker-role
    - flask-role
    - nginx-role
