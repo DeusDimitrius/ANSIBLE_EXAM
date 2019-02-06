@@ -8,7 +8,7 @@
 #  name: nginx-role
 
 # with tag
-- hosts: local
+- hosts: slave
   become:  
     true
    become_method:
