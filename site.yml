@@ -13,7 +13,7 @@
 #    true
 #   become_method:
 #    sudo  
-#  roles:
+  roles:
    - docker-role
    - flask-role
    - nginx-role
