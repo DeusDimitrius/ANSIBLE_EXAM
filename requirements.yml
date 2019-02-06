@@ -1,6 +1,6 @@
-- src: https://github.com/DeusDimitrius/ANSIBLE_DOCKER_ROLE.git
+#- src: https://github.com/DeusDimitrius/ANSIBLE_DOCKER_ROLE.git
   # path: roles/
-  name: docker-role
+  #name: docker-role
 - src: https://github.com/DeusDimitrius/ANSIBLE_WEB_APP_ROLE.git
   # path: roles/
   name: flask-role
