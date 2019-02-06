@@ -15,5 +15,5 @@
     sudo  
   roles:
   - docker -role
-  - flask-role
-  - nginx-role
+#  - flask-role
+#  - nginx-role
