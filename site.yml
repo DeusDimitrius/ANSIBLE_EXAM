@@ -9,7 +9,10 @@
 
 # with tag
 - hosts: local
-  remote_user: root
+  become:  
+    true
+   become_method:
+    sudo  
   roles:
   - docker -role
   - flask-role
