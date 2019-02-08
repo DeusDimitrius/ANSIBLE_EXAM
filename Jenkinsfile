@@ -19,9 +19,9 @@ pipeline {
      steps {
              sleep 30
 
-       httpRequest responseHandle: 'NONE', timeout: 2500, url: 'http://IP1:5000', validResponseCodes: '200', consoleLogResponseBody: true
-       httpRequest responseHandle: 'NONE', timeout: 2500, url: 'http://IP2:5000', validResponseCodes: '200', consoleLogResponseBody: true
-       httpRequest responseHandle: 'NONE', timeout: 2500, url: 'http://IP2:5000', validResponseCodes: '200', consoleLogResponseBody: true
+       httpRequest responseHandle: 'NONE', timeout: 2500, url: 'http://127.0.0.1:5001', validResponseCodes: '200', consoleLogResponseBody: true
+       httpRequest responseHandle: 'NONE', timeout: 2500, url: 'http://127.0.0.1:5002', validResponseCodes: '200', consoleLogResponseBody: true
+       httpRequest responseHandle: 'NONE', timeout: 2500, url: 'http://127.0.0.1:5003', validResponseCodes: '200', consoleLogResponseBody: true
      }
     }
    }
